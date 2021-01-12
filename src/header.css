@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/16efa2896f117dae2debeb23ab4715dd?family=DidoteTextW01-Italic);
+h1{
+    font-family: didoteTextw01-Italic,serif !important;
+    font-style:italic;
+    font-weight: bold;
+    font-size:40px !important;
+    letter-spacing: 0.1em;
+}
+.heading>span>p{
+    font-family: didoteTextw01-Italic,serif !important;
+    font-style:italic;
+    font-weight: lighter;
+    font-size:20px;
+    
+}
+.container-fluid{
+    margin-top:80px;
+}
+.heading{
+    height: 250px;
+}
+.heading>span{
+    position: relative;
+    text-align: center !important;
+    top:25% !important;
+    transform:translateY(-25%);
+}
+.pic1{
+    width: 80% !important;
+    left:50%;
+    transform:translateX(-50%);
+}
+.form{
+    position: relative;
+    top:100px;
+    left:50%;
+    transform:translateX(-55%);
+}
+
+.REG_FORM{
+    width:200px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.REG_FORM>label{
+    
+display: inline-block;
+  width: 6em;
+  position: relative;
+  top: -3em;
+
+}
+.REG_FORM>input
+{
+    
+display: inline-block;
+width: 6em;
+  
+ 
+   
+}
+.REG_FORM>button{
+    position: absolute;
+    top:-32px !important;
+    border-radius: 0px !important;
+    color: white;
+    background: rgb(36, 34, 34);
+    border :1px solid white !important;
+    padding: 9px 40px 10px 40px !important;
+    transition: 0.6s !important;
+    font-size: 14px !important;
+    font-weight: lighter !important;
+}
